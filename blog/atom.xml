@@ -2,26 +2,26 @@
 layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-				<title>TAO Ran's Blog</title>
-				<link href="http://neurosciencetao.github.io/blog/atom.xml" rel="self"/>
-				<link href="http://neurosciencetao.github.im/blog"/>
-				<updated>{{ site.time | date_to_xmlschema }}</updated>
-				<id>http://neurosciencetao.github.io/blog</id>
-				<author>
-								<name>TAO Ran</name>
-								<email>taoran@connect.hku.hk</email>
-				</author>
-				
-				{% for post in site.posts %}
-								<entry>
-												<title>{{ post.title }}</title>
-												<link href="http://neurosciencetao.github.io{{ post.url }}"/>
-												<update>{{ post.date | date_to_xmlschema }}</update>
-												<id>http://neurosciencetao.github.io{{ post.id }}</id>
-												<content type="html">{{ post.content | xml_escape }}</content>
-								</entry>
-				{% endfor %}
-				
+	<title>Hank Quinlan's Blog</title>
+	<link href="http://neurosciencetao.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://neurosciencetao.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://neurosciencetao.github.io/blog</id>
+	<author>
+		<name>TAO Ran</name>
+		<email>taoran.bnu@gmail.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://neurosciencetao.github.io{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://neurosciencetao.github.io{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
 </feed>
