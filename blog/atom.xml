@@ -11,13 +11,13 @@ layout: feed
 				<id>http://neurosciencetao.github.io/blog</id>
 				<author>
 								<name>TAO Ran</name>
-								<email>taoran@connect.hku.hk</email
+								<email>taoran@connect.hku.hk</email>
 				</author>
 				
 				{% for post in site.posts %}
 								<entry>
 												<title>{{ post.title }}</title>
-												<link href="http://neurosciencetao.github.io{{ post.url }}">
+												<link href="http://neurosciencetao.github.io{{ post.url }}"/>
 												<update>{{ post.date | date_to_xmlschema }}</update>
 												<id>http://neurosciencetao.github.io{{ post.id }}</id>
 												<content type="html">{{ post.content | xml_escape }}</content>
