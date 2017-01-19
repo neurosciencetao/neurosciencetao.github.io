@@ -8,7 +8,9 @@ date: 2017-01-19
 There are a lot of E-prime tutorials out there, so why another tutorial?
 Basically I write this tutorial to show my collegues how to build E-prime experiments and also to tell future me how to do this in case I forget. I aim to write an easy to follow instruction, along which you only need to drag and drop the objects (most of the time) to build the experiment. So you can build up a real experiment with reading this tutorial.
 
-> I will explain those 'critical concepts' for experiment design and program during you reading this tutorial. But these explanations can be safely ignored without prohibiting you accomplish this tutorial. You can always come back later.
+<div class="code">I will explain those 'critical concepts' for experiment design and program during you reading this tutorial. But these explanations can be safely ignored without prohibiting you accomplish this tutorial. You can always come back later.</div>
+
+<code>Test code</code>
 
 I hope you will enjoy:)
 
