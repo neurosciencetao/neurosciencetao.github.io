@@ -10,12 +10,11 @@ There are a lot of E-prime tutorials out there, so why another tutorial?
 
 Basically I write this tutorial to show my collegues how to build E-prime experiments and also to tell future me how to do this in case I forget. I aim to write an easy to follow instruction, along which you only need to drag and drop the objects (most of the time) to build the experiment. So you can build up a real experiment with reading this tutorial.
 
-~~~
-NOTES:
-I will explain those 'critical concepts' for experiment design and program during you reading this tutorial.
+> `NOTES:
+
+> `I will explain those 'critical concepts' for experiment design and program during you reading this tutorial.
 But these explanations can be safely ignored without prohibiting you accomplish this tutorial.
-You can always come back later.
-~~~
+You can always come back later.`
 
 I hope you will enjoy:)
 
@@ -153,9 +152,20 @@ Now you can run the experiment again to see if everything works.
 
 A linguistic study usually has a practice session. As we have well made the experiment session, it is easy to make a practice session.
 
-1. Drag and drop a `List` to the 
-# run a test
+Do the same thing as when you make up the `ExpBlock`. The differences are
+1. rename the `List` to `PracBlock`;
+2. choose `TrialProc` for the `procedure` attribute, but you do not have to make futher modification to the `TrialProc`.
+
+Now save and run the script again. It will go smoothly if you do everything right.
+
+~~~
+We have been running the experiment for several times during this tutorial.
+Actually it is important to test what you have before you move on.
+With the growth of the script it becomes harder to debug.
+It is important to make sure the elements are built right.
+~~~
 
 # a few more modification
+I guess you have noticed
 
 # What next?
