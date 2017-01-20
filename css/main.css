@@ -32,3 +32,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+blockquote {
+  font-size: 1em;
+  background-color: black;
+  color: white;
+}
