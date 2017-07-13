@@ -11,12 +11,13 @@ date: 2017-07-11
 下面这些链接提供了更加详细的解释或操作方法：
 - [ANOVA explanation on Lared.com](https://statistics.laerd.com/statistical-guides/repeated-measures-anova-statistical-guide.php)
 - [step by step guidance on Laerd.com](https://statistics.laerd.com/spss-tutorials/one-way-anova-repeated-measures-using-spss-statistics.php)
+- [SPSS Repeated Measures ANOVA Tutorial](https://www.spss-tutorials.com/spss-repeated-measures-anova/)
 - [how to report (partial) eta squared from SPSS](https://www.spss-tutorials.com/spss-partial-eta-squared/)
 
 方差分析是通过分析两个及以上分组之间方差的差异，来进行均数之间是否有差异的统计分析。其基本思想是：
-- 测量的方差有两个来源：不可控制的随机误差和实验设计引起的系统偏差。
-- 如果没有系统误差，则组间不会有显著差异。
-- 比较组间均方差和组内均方差可以提示组间误差来自实验设计引起的系统偏差的可能性。  
+> - 测量的方差有两个来源：不可控制的随机误差和实验设计引起的系统偏差。
+> - 如果没有系统误差，则组间不会有显著差异。
+> - 比较组间均方差和组内均方差可以提示组间误差来自实验设计引起的系统偏差的可能性。  
 
 这篇小文章介绍一下如何SPSS 20.0做单因素重复测量方差分析。用到的数据可以在[这里](/img/poster_ANOVA/RT.sav)下载。
 数据来自于一个汉字类别判断实验，记录了被试（N=22） 在三种状态（1.专注，2.走神并没有意识到，3.走神并且意识到）下的平均反应时。在此数据中，自变量为被试的注意状态，因变量为反应时。
