@@ -9,10 +9,11 @@ date: 2017-07-11
 
 # 引言
 下面这些链接提供了更加详细的解释或操作方法：
-- [ANOVA explanation on Lared.com](https://statistics.laerd.com/statistical-guides/repeated-measures-anova-statistical-guide.php)
-- [step by step guidance on Laerd.com](https://statistics.laerd.com/spss-tutorials/one-way-anova-repeated-measures-using-spss-statistics.php)
-- [SPSS Repeated Measures ANOVA Tutorial](https://www.spss-tutorials.com/spss-repeated-measures-anova/)
-- [how to report (partial) eta squared from SPSS](https://www.spss-tutorials.com/spss-partial-eta-squared/)
+- [Lared.com上的ANOVA介绍](https://statistics.laerd.com/statistical-guides/repeated-measures-anova-statistical-guide.php)
+- [Laerd.com上的ANOVA步骤指导](https://statistics.laerd.com/spss-tutorials/one-way-anova-repeated-measures-using-spss-statistics.php)
+- [重复测量方差分析的SPSS实现](https://www.spss-tutorials.com/spss-repeated-measures-anova/)
+- [怎样做重复测量方差分析的事后分析](https://www.spss-tutorials.com/spss-repeated-measures-anova-example-2/#workflow)
+- [怎样计算因素的效应量](https://www.spss-tutorials.com/spss-partial-eta-squared/)
 
 方差分析是通过分析两个及以上分组之间方差的差异，来进行均数之间是否有差异的统计分析。其基本思想是：
 > - 测量的方差有两个来源：不可控制的随机误差和实验设计引起的系统偏差。
